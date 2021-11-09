@@ -11,7 +11,7 @@ RUN apt-get install -y \
     zlib1g-dev liblzma-dev libgmp-dev patch \
     protobuf-compiler \
     curl \
-    python \
+    python3 \
     git-core
 
 RUN npm i -g pnpm
