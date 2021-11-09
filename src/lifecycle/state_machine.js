@@ -109,7 +109,7 @@ const onPreMining = async (fromState, toState, context) => {
     !(
       (await phalaApi.query.phalaRegistry.workers(publicKey))
         .unwrapOrDefault()
-        .initialScore.toJSON() > 1800
+        .initialScore.toJSON() > 1700
     ) ||
     !info.registered
   ) {

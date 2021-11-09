@@ -188,7 +188,7 @@ export const registerWorker = async (runtime) => {
 
   shouldRegister =
     shouldRegister ||
-    !(workerInfo.initialScore.toJSON() > 1800) ||
+    !(workerInfo.initialScore.toJSON() > 1700) ||
     !(
       workerInfo.operator.toString() ===
       (pool.isProxy ? pool.realPhalaSs58 : pool.ss58Phala)
